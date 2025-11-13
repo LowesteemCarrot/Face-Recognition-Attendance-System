@@ -63,6 +63,10 @@ If you’re using XAMPP, place the project folder inside the `htdocs` directory:
 ```plaintext
 xampp/htdocs/Face-Recognition-Attendance-System
 ```
+OR
+```plaintext
+/opt/lampp/htdocs
+```
 
 Use a simple folder name, as it will be part of the URL (e.g., attendance-system).
 
@@ -70,13 +74,15 @@ Use a simple folder name, as it will be part of the URL (e.g., attendance-system
 
 - Open the XAMPP Control Panel.
 - Start the **Apache** and **MySQL** services.
+- or run sudo /opt/lampp/lampp start
 
 ### **4. Set Up the Database**
 
 - Visit **phpMyAdmin**.
+- http://127.0.0.1/phpmyadmin
 - Create a new database.
 
-  - Recommended name: `attendance_db` (You can choose any name, but ensure it matches the configuration in your project files).
+  - Recommended name: `attendance-db` (You can choose any name, but ensure it matches the configuration in your project files).
 
 - Import the SQL file:
 - Locate the `attendance-db.sql` file in the `database/` folder of the project.
@@ -127,6 +133,7 @@ As a lecturer:
 
 - You can also export the attendance to an **Excel** sheet.
 - Other simple features are available for managing the lecture panel.
+
 
 
 
