@@ -1,4 +1,7 @@
-﻿# **Face Recognition Attendance System**
+# **USE attendance repo**
+
+
+ # **Face Recognition Attendance System**
 
 A robust system designed to authenticate individuals and record attendance using **facial recognition technology** powered by deep learning. This project simplifies attendance tracking for classrooms, workplaces, or events.
 
@@ -133,6 +136,7 @@ As a lecturer:
 
 - You can also export the attendance to an **Excel** sheet.
 - Other simple features are available for managing the lecture panel.
+
 
 
 
